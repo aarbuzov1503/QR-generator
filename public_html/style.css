@@ -1,0 +1,64 @@
+ * {
+     margin: 0;
+     font-family: sans-serif;
+ }
+
+ body {
+     padding: 40px 0;
+ }
+
+ section {
+     max-width: 1000px;
+     margin: 0 auto;
+ }
+
+ h1 {
+     font-size: 50px;
+     margin-bottom: 40px;
+ }
+
+ .description {
+     margin-bottom: 40px;
+ }
+
+ .form {
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 40px;
+ }
+
+ input[type="url"] {
+     font-size: 32px;
+     width: 70%;
+ }
+
+ button {
+     font-size: 28px;
+     cursor: pointer;
+ }
+
+ .error-message {
+     display: none;
+     margin-bottom: 40px;
+     color: red;
+     font-size: 24px;
+     font-weight: bold;
+ }
+
+ .error-message-active {
+     display: block;
+ }
+
+ hr {
+     margin-bottom: 40px;
+ }
+
+ .qrcode-container {
+     display: flex;
+     justify-content: center;
+ }
+
+ #qrcode {
+     width: 512px;
+     height: 512px;
+ }
